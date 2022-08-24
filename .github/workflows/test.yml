@@ -1,3 +1,5 @@
+
+run-ons: [self-hosted]
 name: test
 on: [push]
 jobs: 
