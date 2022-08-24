@@ -1,10 +1,8 @@
-
-run-ons: [self-hosted]
 name: test
 on: [push]
 jobs: 
   test-app:
-    runs-on: ubuntu-latest
+    run-ons: [self-hosted]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
